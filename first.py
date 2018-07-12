@@ -17,6 +17,6 @@ def factorial(n):
        print(str(n) + '! = ' + str(returnNumber))
        return returnNumber
 
+start_new_thread(factorial,(6, ))
 start_new_thread(factorial,(5, ))
-start_new_thread(factorial,(4, ))
 c = input("Waiting for threads to return...\n")
